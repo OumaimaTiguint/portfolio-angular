@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Experience</h2>
+    <div class="cards">
+        <div class="card" *ngFor="let e of experience">
+            <div class="top">
+                <h3><strong><img src={{e.img}}>{{e.name}}</strong></h3>
+                <h3 class="role">{{e.role}}</h3>
+            </div>
+            <hr>
+            <p>{{e.description}}</p>
+            <ul>
+                <li *ngFor="let i of e.tasks">{{i}}</li>
+            </ul>
+            <p>{{e.duration}} | {{e.location}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.container {
+    padding-left: 15%;
+}
+h2 {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    color: #325288;
+}
+.group {
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    h3 {
+        background-color: #325288;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color: #fff
+    }
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        .skill {
+            margin: 5px
+        }
+    }
+}

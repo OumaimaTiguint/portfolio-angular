@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>Skills</h2>
+    <div class="group">
+        <h3>Frontend</h3>
+        <div class="skills">
+            <div class="skill" *ngFor="let skill of frontend">
+                {{skill}}
+            </div>
+        </div>
+    </div>
+    <div class="group">
+        <h3>Backend</h3>
+        <div class="skills">
+            <div class="skill" *ngFor="let skill of backend">
+                {{skill}}
+            </div>
+        </div>
+    </div>
+    <div class="group">
+        <h3>Other</h3>
+        <div class="skills">
+            <div class="skill" *ngFor="let skill of other">
+                {{skill}}
+            </div>
+        </div>
+    </div>
+</div>

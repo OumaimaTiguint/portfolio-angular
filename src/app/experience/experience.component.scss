@@ -1,0 +1,24 @@
+.container {
+    padding-left: 15%;
+}
+h2 {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    color: #325288;
+}
+.cards {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    .top {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        .role { text-align: end;}
+    }
+}
+img { width: 25px}

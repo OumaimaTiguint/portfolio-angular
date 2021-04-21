@@ -1,0 +1,70 @@
+<nav class="nav flex-column">
+    <li class="navbar-brand">
+        <h2>Oumaima<br>Tiguint</h2>
+        <p>Fullstack developer</p>
+        <hr>
+    </li>
+    <li 
+        class="nav-item" 
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/']">
+            <img src="assets/home.svg">
+            Home
+        </a>
+    </li>
+    <li 
+        class="nav-item" 
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/about']">
+            <img src="assets/about.svg">
+            About
+        </a>
+    </li>
+    <li 
+        class="nav-item"
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/experience']">
+            <img src="assets/experience.svg">
+            Experience
+        </a>
+    </li>
+    <li 
+        class="nav-item"
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/projects']">
+            <img src="assets/projects.svg">
+            Projects
+        </a>
+    </li>
+    <li 
+        class="nav-item"
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/skills']">
+            <img src="assets/skills.svg">
+            Skills
+        </a>
+    </li>
+    <li 
+        class="nav-item"
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/education']">
+            <img src="assets/education.svg">
+            Education
+        </a>
+    </li>
+    <li 
+        class="nav-item"
+        [routerLinkActive]="['active']" 
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/contact']">
+            <img src="assets/contact.svg">
+            Contact
+        </a>
+    </li>
+</nav>

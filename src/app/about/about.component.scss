@@ -1,0 +1,19 @@
+.container {
+    padding-left: 15%;
+}
+h2 {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    color: #325288;
+}
+.abt-content {
+    display: flex;
+    flex-direction: row;
+    img {
+        width: 500px
+    }
+    p {
+        text-align: justify;
+    }
+}

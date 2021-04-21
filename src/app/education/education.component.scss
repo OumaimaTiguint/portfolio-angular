@@ -1,0 +1,23 @@
+.container {
+    padding-left: 15%;
+}
+.card {
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "img text";
+    grid-template-columns: 1fr 1fr;
+    img { 
+        width: 400px;
+    }
+    .text {
+        text-align: end;
+        padding-top: 100px;
+        h3 { 
+            font-family: 'Lobster', sans-serif;
+            color: #325288;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.nav { 
+    background-color: #114E60;
+    height: 100% !important;
+    width: 15%;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.navbar-brand {
+    padding: 10px;
+    color: #fff;
+    hr { background-color: #fff}
+}
+li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-item:hover, .nav-item:active, .active {
+    border-left: 5px solid #114E60;
+    background-color: #F4EEE8;
+    a { color: #114E60;}
+    img {
+        filter: invert(26%) sepia(66%) saturate(458%) hue-rotate(147deg) brightness(91%) contrast(103%);
+    }
+}
+.nav-item img {
+    display: inline-block;
+    width: 25px
+}
